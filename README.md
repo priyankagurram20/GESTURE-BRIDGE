@@ -1,10 +1,15 @@
-<img src="https://github.com/user-attachments/assets/34659371-3971-42b9-b89f-91e039558982" alt="Image 1" width="300"/>
-<img src="https://github.com/user-attachments/assets/e064459d-e65e-4e47-9524-2cbf8e2e5249" alt="Image 2" width="300"/>
-<img src="https://github.com/user-attachments/assets/3d4da161-a761-4932-988b-1f08cc934462" alt="Image 3" width="300"/>
-<img src="https://github.com/user-attachments/assets/492f6a52-c5e3-4250-a045-73cb7afaea39" alt="Image 4" width="300"/>
-<img src="https://github.com/user-attachments/assets/e21acec1-7523-4575-a889-7c8a5f0fadf4" alt="Image 5" width="300"/>
-<img src="https://github.com/user-attachments/assets/0862aaa5-21d8-4729-ba44-f95c1e790696" alt="Image 6" width="300"/>
-<img src="https://github.com/user-attachments/assets/22b97f60-1660-42a1-be70-6a88fb430e46" alt="Image 7" width="300"/>
-<img src="https://github.com/user-attachments/assets/cb458fca-332d-400b-877a-3daf7f45b69c" alt="Image 8" width="300"/>
-<img src="https://github.com/user-attachments/assets/e7eb4fc4-6553-4b3f-9706-e10ebdde0af5" alt="Image 9" width="300"/>
-<img src="https://github.com/user-attachments/assets/1a92f88b-f75a-4612-8159-7a6c9f21b6ba" alt="Image 10" width="300"/>
+> Why do I have a folder named ".expo" in my project?
+
+The ".expo" folder is created when an Expo project is started using "expo start" command.
+
+> What do the files contain?
+
+- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
+- "packager-info.json": contains port numbers and process PIDs that are used to serve the application to the mobile device/simulator.
+- "settings.json": contains the server configuration that is used to serve the application manifest.
+
+> Should I commit the ".expo" folder?
+
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
